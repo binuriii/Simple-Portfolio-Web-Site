@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio - Blog / Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Projects & Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html" class="active">Projects / Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>   
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2 blog posts with <time> elements -->
+        <section>
+            <h2>My Blog Posts</h2>
+
+            <article>
+                <h3>Designing My First Portofolio Website</h3>
+                <time datetime="2025-10-25">October 25, 2025</time>
+                <p>I created my first portfolio using HTML5 CSS3. It helped me understand 
+                    the importance of structure, comments, and semantic elements for accessibility.</p>
+            </article>
+
+            <article>
+                <h3>Learning Responsive Design</h3>
+                <time datetime="2025-10-25">October 25, 2025</time>
+                <p>Using CSS media queries, I learned to make my website adapt beautifully to any 
+                    screen size. It's amazing how a few lines of code CSSS can completely change the 
+                    layout for mobile users.</p>
+            </article>
+        </section>
+
+        <!-- Add Projects or Hobbies Section -->
+        <section class="projects-section">
+            <h2>My Projects</h2>
+
+            <div class="projects">
+                <article class="project">
+                    <img src="images/project1.jpg" alt="screenshot of your project1">
+                    <h3>Dino Game Clone</h3>
+                    <p>Built a Google Chrome Dinosaur Game Clone using HTML, CSS, and JavaScript mostly, featuring smooth 
+                        jump mechanics, scrolling ground, random obstacle spawning, and score tracking. Applied basic math 
+                        for jump physics and speed scaling to create a responsive and interactive gameplay experience.</p>
+                    
+                    <p>A fun project demonstrating DOM manipulation, animations, and game logic in the browser.</p>
+                    <a href="https://example.com/project1" target="_blank" class="btn">View Project</a>
+                </article>
+
+                <article class="project">
+                    <img src="images/project2.jpg" alt="screenshot of your project1">
+                    <h3>Car Control App Design</h3>
+                    <p>Pleased to share a modern dashboard interface tailored for electric vehicles, designed using Figma. 
+                        This concept focuses on clarity, efficiency, and an intuitive user experience to support the growing 
+                        shift toward sustainable mobility.</p>
+                    
+                    <p>Designing for the future of transportation means merging functionality with aesthetics — and ensuring 
+                        every interaction feels effortless.</p>
+                    <a href="https://example.com/project1" target="_blank" class="btn">View Project</a>
+                </article>
+            </div>
+        </section> 
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Binuri Piyathma. All rights reserved. Designed and developed by Binuri Piyathma. </p>
+    </footer>
+</body>
+</html>
